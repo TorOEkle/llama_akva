@@ -6,7 +6,7 @@ from llama_index import LLMPredictor, ServiceContext
 from llama_index.tools import QueryEngineTool, ToolMetadata
 from llama_index.query_engine import SubQuestionQueryEngine
 from langchain import OpenAI
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = "<OPEN API KEY>"
 
 st.title("Fiskehelserapporter 2019-2022")
 
